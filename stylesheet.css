@@ -1,0 +1,211 @@
+@media screen and (max-device-width: 480px){
+
+    body {
+        background-color: #F0F0F0;
+    }
+    h1, div, p, button {
+        font-family: 'Lato', sans-serif;
+        font-weight: 400;
+    }
+    h1 {
+        height: 7vh;
+        border: black;
+        padding: 1.8% 0 1.6rem 2rem;
+        color: white;
+        font-size: 3.5rem;
+        margin-top: -0.8%;
+        border-radius: 1.43rem;
+        background-image: linear-gradient(to right, #5a97f8 0%, #6ecbfa 51%);
+    }
+    div {
+        width: 90%;
+        min-height: 95vh;
+        display: flex;
+        margin: 0 auto;
+        flex-direction: column;
+        margin-top: 4rem;
+        flex-shrink: 0;
+        background-color: #FCFCFC;
+        border-radius: 1.43rem;
+    }
+    label, input, button {
+        margin:10px auto;
+        width: 80%;
+    }
+
+    input {
+        height: 5vh;
+        border: none;
+        background-color: #F0F0F0;
+        color: #585858;
+        font-size: 2rem;
+    }
+    label {
+        color: #585858;
+
+        font-size: 2rem;
+        margin-top: 50px;
+    }
+    button {
+        width: 80%;
+        height: 7vh;
+        padding: 10px;
+        margin: 50px auto;
+        border-radius: 1rem;
+        border-style: none;
+        color: white;
+        font-size: 3rem;
+        background-image: linear-gradient(to right, #5a97f8 0%, #bce9ff 51%, #89b3f7 100%);
+        transition: 0.5s;
+        background-size: 200% auto;
+    }
+    button:hover {
+        background-position: right center;
+    }
+    p {
+        text-align: center;
+        color: #585858;
+        font-size: 2.5rem;
+    }
+}
+
+@media screen and (min-device-width: 480px) and (max-device-width: 850px) {
+    body {
+        background-color: #F0F0F0;
+    }
+
+    h1, div, p, button {
+        font-family: 'Lato', sans-serif;
+        font-weight: 400;
+    }
+    h1 {
+        width: 96%;
+        height: 8vh;
+        border: black;
+        padding: 1.5rem 0 0 2rem;
+        color: white;
+        font-size: 3rem;
+        margin-top: -0.8rem;
+        border-radius: 1.43rem;
+        background-image: linear-gradient(to right, #5a97f8 0%, #6ecbfa 51%);
+    }
+    div {
+        display: flex;
+        margin: 0 auto;
+        flex-direction: column;
+        margin-top:4vh;
+        width: 80%;
+        min-height: 100vh;
+        flex-shrink: 0;
+        background-color: #FCFCFC;
+        border-radius: 1.43rem;
+    }
+    label, input {
+        width: 80%;
+        margin: 10px auto;
+        font-size: 1.8rem;
+        color: #585858;
+    }
+
+    input {
+        height: 5vh;
+        border: none;
+        background-color: #F0F0F0;
+    }
+    label {
+        padding: 20px;
+    }
+    button {
+        width: 80%;
+        height: 8vh;
+        padding: 10px;
+        margin: 50px auto;
+        border-radius: 1rem;
+        border-style: none;
+        color: white;
+        font-size: 2.4rem;
+        background-image: linear-gradient(to right, #5a97f8 0%, #bce9ff 51%, #89b3f7 100%);
+        transition: 0.5s;
+        background-size: 200% auto;
+    }
+    button:hover {
+        background-position: right center;
+    }
+    p {
+        color: #585858;
+        text-align: center;
+        font-size: 1.8rem;
+    }
+}
+
+
+@media screen and (min-device-width: 850px) {
+    body {
+        background-color: #F0F0F0;
+    }
+
+    h1, div, p, button {
+        font-family: 'Lato', sans-serif;
+        font-weight: 400;
+    }
+    h1 {
+        width: 33rem;
+        height: 4rem;
+        border: black;
+        padding: 1.5rem 0 0 2rem;
+        color: white;
+        font-size: 2.25rem;
+        margin-top: -0.8rem;
+        border-radius: 1.43rem;
+        background-image: linear-gradient(to right, #5a97f8 0%, #6ecbfa 51%);
+    }
+    div {
+        display: flex;
+        margin: 0 auto;
+        flex-direction: column;
+        margin-top: 4rem;
+        width: 35rem;
+        height: 50rem;
+        flex-shrink: 0;
+        background-color: #FCFCFC;
+        border-radius: 1.43rem;
+    }
+
+    label, input {
+        width: 80%;
+        margin: 0 auto;
+        color:#585858;
+    }
+
+    input {
+        height:  6%;
+        border: none;
+        background-color: #F0F0F0;
+        font-size: 1.2rem;
+    }
+    label {
+        font-size: 1.2rem;
+        padding: 15px;
+    }
+    button {
+        width: 60%;
+        height: 8%;
+        padding: 10px;
+        margin: 30px auto;
+        border-radius: 1rem;
+        border-style: none;
+        color: white;
+        font-size: 1.2rem;
+        background-image: linear-gradient(to right, #5a97f8 0%, #bce9ff 51%, #89b3f7 100%);
+        transition: 0.5s;
+        background-size: 200% auto;
+    }
+    button:hover {
+        background-position: right center;
+    }
+    p {
+        color: #585858;
+        text-align: center;
+        font-size: 1.2rem;
+    }
+}
